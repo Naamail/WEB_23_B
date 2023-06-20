@@ -1,0 +1,29 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin: 2%;
+    padding: 10px;
+}
+
+input, label {
+    display: block;
+    width: 30%;
+    border: 2px solid blue;
+    margin: auto;
+    margin-top: 2vh;
+}
+
+input[type=submit] {
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+}
+
+.div_white {
+    color: blue;
+}
+
+.div_blue {
+    background-color: blue;
+    color: white;
+}

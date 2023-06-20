@@ -1,0 +1,1 @@
+document.getElementById("Home_body").classList.add("style1");
