@@ -1,0 +1,18 @@
+extends template 
+block content
+    div(id="Greeting") 
+        h1 Hi #{v1}
+        br
+        a(href="/signOut") Logout 
+    div(id="signInForm")
+        h1 
+        form(action="/signUp", method="post")  
+            h1 
+                a(href="http://") SIGN UP
+            label(for="") Full name
+            input(type="text", name="SignUPName") 
+            label(for="") email
+            input(type="email", name="SignUPmail")
+            input(type="submit", value="SignUp")
+            p Already have an account? sign in 
+                a(href="/") here 
