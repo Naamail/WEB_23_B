@@ -1,0 +1,11 @@
+extends layout 
+block content 
+    h1 SIGN-UP
+    form(action="/SignUpForm", method="post")
+        label(for="") name
+        input(type="text", name="SignUpName")  
+        label(for="") email
+        input(type="email", name="SignUpEmail") 
+        input(type="submit", value="SIGN-UP")
+    p Already a User? go to 
+        a(href="/page2") LOGIN 

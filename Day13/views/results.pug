@@ -1,0 +1,11 @@
+extends layout 
+block content 
+    h1 Main service 
+    table 
+        tr 
+            th name 
+            th email 
+        each n in V1 
+            tr 
+                td= n.name 
+                td= n.email 
